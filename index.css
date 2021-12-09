@@ -1,0 +1,214 @@
+footer a{
+  color: white;
+  font-size:7vh;
+}
+#navb {
+  background-color: black;
+}
+#link {
+  color: white;
+}
+#link1 span {
+  color: rgb(248, 6, 99);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+#spn {
+  background-color: white;
+}
+h4 span {
+  animation: animate 4s linear;
+  animation-iteration-count: infinite;
+  display: inline-block;
+  position: relative;
+}
+@keyframes animate {
+  0% {
+    transform: translateY(0px);
+  }
+  10% {
+    transform: translateY(-30px);
+  }
+  15% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+  30% {
+    transform: translateY(0px);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  45% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+h4 span:nth-child(1) {
+  animation-delay: 0.2s;
+}
+h4 span:nth-child(2) {
+  animation-delay: 0.4s;
+}
+h4 span:nth-child(3) {
+  animation-delay: 0.6s;
+}
+h4 span:nth-child(4) {
+  animation-delay: 0.8s;
+}
+h4 span:nth-child(5) {
+  animation-delay: 1s;
+}
+h4 span:nth-child(6) {
+  animation-delay: 1.2s;
+}
+h4 span:nth-child(7) {
+  animation-delay: 1.4s;
+}
+h4 span:nth-child(8) {
+  animation-delay: 1.6s;
+}
+h4 span:nth-child(9) {
+  animation-delay: 1.8s;
+}
+h4 span:nth-child(10) {
+  animation-delay: 2s;
+}
+h4 span:nth-child(11) {
+  animation-delay: 2.2s;
+}
+#color {
+  color: white;
+}
+#size {
+  margin-top: -23px;
+  z-index: 2;
+}
+.hor {
+  position: relative;
+  height: 5px;
+  border-radius: 10px;
+  background: pink;
+  margin-top: -30px;
+}
+.contain {
+  height: auto;
+  background-color: rgb(0, 0, 0);
+  padding-top: 40px;
+  width: 100%;
+  padding-bottom: 40px;
+}
+#hello {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+#myself {
+  color: white;
+  margin-top: 40px;
+  text-align: center;
+  font-weight: 500;
+}
+#myself span {
+  color: rgb(248, 6, 99);
+}
+.main {
+  background-color: rgb(37, 37, 37);
+  margin-top: -17px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#ques {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.container hr {
+  background-color: rgb(248, 6, 99);
+  width: 250px;
+}
+#intro {
+  color: white;
+  text-align: center;
+  font-family: "Lobster";
+  margin-top: 50px;
+  font-size: 30px;
+  word-spacing: 15px;
+}
+#butn {
+  color: white;
+  font-size: 20px;
+}
+.links {
+  border: 3px solid rgb(248, 6, 99);
+  width: 188px;
+  border-radius: 5%;
+  background-color: rgb(37, 37, 37);
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  display: flex;
+}
+.sect {
+  position: relative;
+  background: url(https://www.universetoday.com/wp-content/uploads/2019/05/stsci-h-p1917b-q-5198x4801.jpg);
+  background-size: cover;
+  margin-top: -17px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#intros {
+  color: white;
+  text-align: center;
+  font-family: "Simonetta";
+  margin-top: 50px;
+  font-size: 27px;
+  word-spacing: 12px;
+}
+@media (max-width: 575px) {
+  #navbarNav {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+@media (min-width: 979px) {
+  #mysef {
+    padding-left: 200px;
+    padding-right: 200px;
+    word-spacing: 10px;
+    font-weight: 700;
+  }
+  #intro {
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-family: "Lobster";
+    margin-top: 50px;
+    font-size: 30px;
+  }
+}
+.abs {
+  background-image: url(https://cdn.londonandpartners.com/visit/generic/objects/62290-640x360-tipping-ns.jpg);
+}
+footer p {
+  display: inline;
+  /* padding: 21px; */
+  margin:10px;
+  color: white;
+  font-size: 1vh;
+
+}
+footer a{
+  padding:10px;
+  margin:
+}
+footer{
+  
+  text-align: center;
+}
